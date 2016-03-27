@@ -82,9 +82,8 @@ def get_city_listings(url, city, dir):
         print "This is the url to be read: " + url
 
         time.sleep(randint(1,4))
-        # engine = create_engine('mysql+pymysql://root:Supermon12'
-        #                        '@localhost/craigslist', pool_recycle=3600)
-        engine = create_engine('mysql+pymysql://user:phVPqCMjcaAmxwhB'
+        
+        engine = create_engine('mysql+pymysql://"username_goes_here":"passwordgoeshere'
                                '@104.131.175.187/craigslist')
 
 
