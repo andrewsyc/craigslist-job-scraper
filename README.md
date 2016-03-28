@@ -15,8 +15,7 @@ Suggestions:
 * The script has a timed pauses, leave them in there to more accurately represent a user
 
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+
 
 ### Run Command
 
